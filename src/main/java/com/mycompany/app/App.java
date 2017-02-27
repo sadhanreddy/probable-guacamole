@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "I am changing again HURRAY" );
+        System.out.println( " am changing again HURRAY" );
 
     }
 }
