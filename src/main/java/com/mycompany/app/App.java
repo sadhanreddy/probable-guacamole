@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( " now SCM   trigger build" );
+        System.out.println( " now SCM   rigger build" );
 
     }
 }
