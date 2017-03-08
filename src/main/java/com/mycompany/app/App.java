@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "  GIT HOOK trigger build" );
+        System.out.println( "   HOOK trigger build" );
 
     }
 }
