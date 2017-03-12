@@ -8,7 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( " now SCM   rigger build" );
+        System.out.println( " gkoognow SCM   rigger build" );
+
 
     }
 }
