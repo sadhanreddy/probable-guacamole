@@ -4,7 +4,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>3.0-SNAPSHOT</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -15,13 +15,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-<build>
-<plugins>
-<plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>2.9.1</version>
-      </plugin>
-    </plugins>
-</build>
+
+ <distributionManagement>
+   <snapshotRepository>
+     <id>maven-snapshots</id>
+     <url>http://localhost:8081/nexus/content/repositories/maven-snapshots</url>
+  </snapshotRepository>
+   <repository>
+      <id>maven-release</id>
+      <url>http://localhost:8081/nexus/content/repositories/maven-release</url>
+     </repository>
+ </distributionManagement>
 </project>
