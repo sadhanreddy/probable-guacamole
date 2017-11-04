@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Welcome to the Workshop !!! SCM   trigger build" );
+        System.out.println( " 26 Welcome to the Workshop !!! SCM   trigger build" );
 
 
 
