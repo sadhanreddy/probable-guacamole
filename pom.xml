@@ -7,6 +7,13 @@
   <version>3.0-SNAPSHOT</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
+  <servers>
+        <server>
+            <id>http://192.168.56.102:8081/nexus</id>
+            <username>admin</username>
+            <password>admin123</password>
+        </server>
+</servers>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
